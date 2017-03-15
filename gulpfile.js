@@ -13,6 +13,10 @@ gulp.task('compileSass', function () {
   return gulp.src('scss/main.scss')
   .pipe(sourcemaps.init())
   .pipe(sass())
+  .pipe(postcss([
+      lost(),
+      autoprefixer()
+    ]))
   .pipe(sourcemaps.write('./'))
   .pipe(gulp.dest('css'));
 });

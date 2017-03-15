@@ -1,0 +1,28 @@
+/* Global Layout Set-up */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #3A6355;
+  background: #2d2b30;
+}
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: #999;
+}
+
+a:hover {
+  color: #999;
+}
+
+
+.clearfix {
+  clear: both;
+}

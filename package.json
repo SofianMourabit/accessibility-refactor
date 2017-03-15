@@ -1,0 +1,29 @@
+{
+  "name": "accessibility_refactor",
+  "version": "1.0.0",
+  "description": "Refactor an example website for better accessibility",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SofianMourabit/accessibility-refactor.git"
+  },
+  "author": "Sofian Mourabit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SofianMourabit/accessibility-refactor/issues"
+  },
+  "homepage": "https://github.com/SofianMourabit/accessibility-refactor#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-watch": "^4.3.11",
+    "lost": "^8.0.0"
+  }
+}
