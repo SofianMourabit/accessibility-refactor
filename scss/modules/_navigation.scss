@@ -13,28 +13,47 @@
 
 .nav {
   display: flex;
-  justify-content: space-around;
   font-weight: 700;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
+  flex-direction: column;
+  align-self: center;
 }
 
 .nav .name {
   display: block;
-  margin-right: auto;
   color: white;
   letter-spacing: 5px;
+  font-size: 1.3em;
+  border: none;
 }
 
 .nav li {
-  padding: 5px 10px 10px 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-bottom: 10px;
 }
 
 .nav a {
+  display: block;
+  padding: 5px 10px 10px 10px;
   transition: all .5s;
 }
 
 .nav a:hover {
   color: #baf73c;
+}
+@media screen and (min-width: 840px) {
+  .nav .name {
+    margin-right: auto;
+  }
+  .nav {
+    flex-direction: row;
+    max-width: 1200px;
+    padding: 0 30px;
+  }
+  .nav li {
+    border:none;
+}
 }

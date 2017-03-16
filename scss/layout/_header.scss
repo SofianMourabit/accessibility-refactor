@@ -10,15 +10,13 @@ header {
   align-items: center;
 }
 .hero__item {
-    color: #34495e;
-    font-size: 4em;
-    text-transform: uppercase;
-    margin-bottom: 0;
+  color: #34495e;
+  text-transform: uppercase;
+  margin-bottom: 0;
 }
 .hero__item--text {
-    color: #005500;
-    font-size: 1.7em;
-    font-weight: bold;
+  color: #005500;
+  font-weight: bold;
 }
 .tag {
   color: black;
@@ -30,9 +28,6 @@ header {
   font-weight: 300;
 }
 
-header .name{
-  font-size: 2em;
-}
 .tagline {
   font-weight: 600;
   padding: 20px;
@@ -44,9 +39,14 @@ header .name{
   header {
     min-height: 470px;
   }
+  .hero__item{
+    font-size: 4em;
+  }
+  .hero__item--text {
+    font-size: 1.7em;
+  }
 
-  .nav {
-    max-width: 1200px;
-    padding: 0 30px;
+  header .name{
+    font-size: 2em;
   }
 }

@@ -3,9 +3,20 @@
 pre {
   font-family: 'Open Sans', sans-serif;
 }
-
+.table--wrapper{
+  overflow-x:auto;
+  margin: auto;
+}
+table{
+  font-size: .7em;
+}
 
 .pick{
   width: 20px;
   height: 0%;
+}
+@media screen and (min-width: 840px) {
+  table{
+    font-size: 1em;
+  }
 }

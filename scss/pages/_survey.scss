@@ -14,12 +14,11 @@ form {
 
 .container{
   text-align: center;
-  width: 90%;
+  width: 100%;
 }
 .newsletter {
     text-align: right;
     padding: 10px;
-    margin: 20px 30px;
     width: 100%
 }
 
@@ -28,5 +27,11 @@ form {
 @media screen and (min-width: 840px) {
   .photo{
     width: 40%;
+  }
+  .container{
+    width: 90%;
+  }
+  .newsletter {
+      margin: 20px 30px;
   }
 }
