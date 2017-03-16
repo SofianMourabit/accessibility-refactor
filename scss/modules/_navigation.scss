@@ -19,6 +19,7 @@
   padding: 0;
   flex-direction: column;
   align-self: center;
+  align-items: center;
 }
 
 .nav .name {
@@ -30,15 +31,17 @@
 }
 
 .nav li {
-    border-radius: 5px;
-    border: 1px solid white;
-    margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-bottom: 10px;
 }
 
 .nav a {
   display: block;
   padding: 5px 10px 10px 10px;
   transition: all .5s;
+  text-transform: uppercase;
+  font-family: 'Miriam Libre', sans-serif;
 }
 
 .nav a:hover {
@@ -55,5 +58,6 @@
   }
   .nav li {
     border:none;
-}
+    margin-bottom: 0px;
+  }
 }

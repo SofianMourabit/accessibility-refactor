@@ -681,7 +681,10 @@ a.social:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   -ms-flex-item-align: center;
-      align-self: center; }
+      align-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .nav .name {
   display: block;
@@ -699,7 +702,9 @@ a.social:hover {
   display: block;
   padding: 5px 10px 10px 10px;
   -webkit-transition: all .5s;
-  transition: all .5s; }
+  transition: all .5s;
+  text-transform: uppercase;
+  font-family: 'Miriam Libre', sans-serif; }
 
 .nav a:hover {
   color: #baf73c; }
@@ -715,7 +720,8 @@ a.social:hover {
     max-width: 1200px;
     padding: 0 30px; }
   .nav li {
-    border: none; } }
+    border: none;
+    margin-bottom: 0px; } }
 
 .card {
   margin: 1em;
