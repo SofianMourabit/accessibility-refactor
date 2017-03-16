@@ -552,6 +552,11 @@ a {
   border: 1px solid #baf73c;
   box-shadow: 0 4px 0 #eff0f1; }
 
+.info {
+  color: #005051;
+  font-style: italic;
+  font-size: small; }
+
 .clearfix {
   clear: both; }
 
