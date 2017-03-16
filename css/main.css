@@ -544,16 +544,13 @@ a {
   padding: 0.75em 2em;
   border-radius: 2em;
   display: inline-block;
-  color: #fff;
-  background-color: #26714f;
+  color: #34415e;
+  background-color: #baf73c;
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
   box-sizing: border-box;
-  border: 1px solid #26714f;
-  box-shadow: 0 4px 0 rgba(38, 113, 79, 0.7); }
-
-a:hover {
-  border-bottom: 2px solid green; }
+  border: 1px solid #baf73c;
+  box-shadow: 0 4px 0 #eff0f1; }
 
 .clearfix {
   clear: both; }
@@ -582,7 +579,7 @@ header {
   margin-bottom: 0; }
 
 .hero__item--text {
-  color: black;
+  color: #005500;
   font-size: 1.7em;
   font-weight: bold; }
 
@@ -693,13 +690,13 @@ a.social:hover {
   transition: all .5s; }
 
 .nav a:hover {
-  color: white; }
+  color: #baf73c; }
 
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   text-align: left;
-  border-top: 4px solid #4fc08d;
+  border-top: 4px solid #baf73c;
   clear: both;
   border-radius: 4px;
   background: #fff;
@@ -723,13 +720,13 @@ a.social:hover {
 .heading {
   font-size: 2em;
   text-transform: uppercase;
-  color: #26714f;
+  color: #34515e;
   margin-top: 1em; }
 
 .heading--table {
   font-size: 1em;
   text-transform: uppercase;
-  color: #26714f;
+  color: #34515e;
   margin-top: 10px;
   margin-bottom: 1em;
   font-weight: bold; }
