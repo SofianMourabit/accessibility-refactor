@@ -31,7 +31,7 @@
       <div class="flex">
         <img class="photo" src= "img/concert01.jpg" alt="concert ambiance picture">
         <div class="container">
-          <form class = "survey" >
+          <form action="#" method="post" class = "survey" >
             <fieldset>
               <legend>Personal Preferences</legend>
               <div class="col">
@@ -60,8 +60,13 @@
               <div class="col">
                 <label for="comment">What is your favorite song:</label>
                 <textarea rows="5" cols="50" id="comment" name="comment"></textarea>
-              </fieldset>
-            </div>
+              </div>
+              <div class="col">
+                <button class="button" type="submit" aria-describedby="submit">Submit</button>
+                <p id="submit">Completing our survey will grant you a chance to win a brand new guitar!</p>
+              </div>
+            </fieldset>
+
           </form>
         </div>
       </div>
@@ -71,7 +76,7 @@
       <div class="flex">
         <img class="photo" src= "img/the_band.jpg" alt="band picture">
         <div class="container">
-          <form class="newsletter">
+          <form action="#" method="post" class="newsletter">
             <fieldset>
               <legend>Subscribe:</legend>
               <ul class="flex-outer">
@@ -88,7 +93,8 @@
                   <input type ="email" name="confirmEmail" id="confirmEmail" placeholder="required" required>
                 </li>
               </ul>
-              <button class="button" type="submit">Sign Up</button>
+              <button class="button" type="submit" aria-describedby="signup">Sign Up</button>
+              <p id="signup">Pressing the sign up button will subscribe you to our weekly band newsletter</p>
             </fieldset>
           </form>
         </div>

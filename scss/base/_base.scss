@@ -44,6 +44,7 @@ legend {
 .col{
   display: flex;
   flex-direction: column;
+  margin-bottom: 1em;
 }
 fieldset{
   border: 0;
@@ -70,7 +71,10 @@ input[type="radio"] {
   vertical-align: text-bottom;
   border-radius: 50%;
 }
-input, label{
+input[type="radio"]:focus{
+    box-shadow: 0px 0px 4px 2px rgb(52, 73, 94);
+}
+input, label, select, textarea{
     outline: none;
 }
 input[type="radio"]:checked {
