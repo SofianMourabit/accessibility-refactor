@@ -10,21 +10,21 @@
   <link href="css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-  <nav class="main-nav">
-    <ul class="nav">
-      <li class="name"><a href="#">Accessible Frog</a></li>
-      <li><a href="tour.html">Tour</a></li>
-      <li><a href="survey.html">Survey</a></li>
-    </ul>
-  </nav>
-  <header>
+  <header role="banner">  
+      <nav role="navigation" class="main-nav">
+        <ul class="nav">
+          <li class="name"><a href="#">Accessible Frog</a></li>
+          <li><a href="tour.html">Tour</a></li>
+          <li><a href="survey.html">Survey</a></li>
+        </ul>
+      </nav>
     <div class="hero">
       <h1 class="hero__item">Accessible Frog</h1>
       <p class="hero__item--text">we make awesome music</p>
     </div>
   </header>
 
-  <main>
+  <main role="main">
     <div class="card">
       <div class="flex">
         <img class="photo" src= "img/soul_of_the_frog.jpg" alt="Soul Of The Frog Album picture">
@@ -48,7 +48,7 @@
     </div>
   </main>
 
-  <footer class="footer">
+  <footer role="contentinfo" class="footer">
     <ul class="social">
       <li><a class="social" href="#"><img src="img/twitter-32.png" alt="Accessible Frog Trwitter account" /></a></li>
       <li><a class="social" href="#"><img src="img/youtube-32.png" alt="Accessible Frog Youtube channel" /></a></li>

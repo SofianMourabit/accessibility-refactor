@@ -11,22 +11,21 @@
 </head>
 
 <body>
-  <div class="main-nav">
-    <ul class="nav">
-      <li class="name"><a href="index.html">Accessible Frog</a></li>
-      <li><a href="#">Tour</a></li>
-      <li><a href="survey.html">Survey</a></li>
-    </ul>
-  </div>
-
-  <header>
+  <header role="banner">
+    <nav role="navigation" class="main-nav">
+      <ul class="nav">
+        <li class="name"><a href="index.html">Accessible Frog</a></li>
+        <li><a href="#">Tour</a></li>
+        <li><a href="survey.html">Survey</a></li>
+      </ul>
+    </nav>
     <div class="hero">
       <h1 class="hero__item">Accessible Frog</h1>
       <p class="hero__item--text">we make awesome music</p>
     </div>
   </header>
 
-  <main >
+  <main role="main">
     <div class="card">
       <div class="flex">
         <!-- The following images are decorative for this project. -->
@@ -65,7 +64,7 @@
     </div>
   </main>
 
-  <footer class="footer">
+  <footer role="contentinfo" class="footer">
     <ul class="social">
       <li><a class="social" href="#"><img src="img/twitter-32.png" alt="Accessible Frog Trwitter account" /></a></li>
       <li><a class="social" href="#"><img src="img/youtube-32.png" alt="Accessible Frog Youtube channel" /></a></li>

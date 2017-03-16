@@ -11,27 +11,27 @@
 </head>
 
 <body>
-  <div class="main-nav">
-    <ul class="nav">
-      <li class="name"><a href="index.html">Accessible Frog</a></li>
-      <li><a href="tour.html">Tour</a></li>
-      <li><a href="#">Survey</a></li>
-    </ul>
-  </div>
-  <header>
+  <header role="banner">
+    <nav role="navigation" class="main-nav">
+      <ul class="nav">
+        <li class="name"><a href="index.html">Accessible Frog</a></li>
+        <li><a href="tour.html">Tour</a></li>
+        <li><a href="#">Survey</a></li>
+      </ul>
+    </nav>
     <div class="hero">
       <h1 class="hero__item">Accessible Frog</h1>
       <p class="hero__item--text">we make awesome music</p>
     </div>
   </header>
 
-  <main>
+  <main role="main">
     <h1 class= "heading">Survey</h1>
     <div class="card">
       <div class="flex">
         <img class="photo" src= "img/concert01.jpg" alt="concert ambiance picture">
         <div class="container">
-          <form class = "survey" role="form">
+          <form class = "survey" >
             <fieldset>
               <legend>Personal Preferences</legend>
               <div class="col">
@@ -71,7 +71,7 @@
       <div class="flex">
         <img class="photo" src= "img/the_band.jpg" alt="band picture">
         <div class="container">
-          <form class="newsletter" role="form">
+          <form class="newsletter">
             <fieldset>
               <legend>Subscribe:</legend>
               <ul class="flex-outer">
@@ -96,7 +96,7 @@
     </div>
   </main>
 
-  <footer class="footer">
+  <footer role="contentinfo" class="footer">
     <ul class="social">
       <li><a class="social" href="#"><img src="img/twitter-32.png" alt="Accessible Frog Trwitter account" /></a></li>
       <li><a class="social" href="#"><img src="img/youtube-32.png" alt="Accessible Frog Youtube channel" /></a></li>
