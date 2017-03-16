@@ -1,59 +1,61 @@
 <!doctype html>
-<html>
-  <head>
-      <meta charset="utf-8">
-      <title>accessibility Refactor Project</title>
-      <meta name="author" content="Sofian Mourabit">
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
-      <link rel="icon" href="favicon.ico" type="image/x-icon">
-      <link href="https://fonts.googleapis.com/css?family=Miriam+Libre|Source+Sans+Pro|Gloria+Hallelujah" rel="stylesheet">
-      <link href="css/main.css" rel="stylesheet" type="text/css" />
-  </head>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>accessibility Refactor Project</title>
+  <meta name="author" content="Sofian Mourabit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Miriam+Libre|Source+Sans+Pro|Gloria+Hallelujah" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <nav class="main-nav">
+    <ul class="nav">
+      <li class="name"><a href="#">Accessible Frog</a></li>
+      <li><a href="tour.html">Tour</a></li>
+      <li><a href="survey.html">Survey</a></li>
+    </ul>
+  </nav>
+  <header>
+    <div class="hero">
+      <h1 class="hero__item">Accessible Frog</h1>
+      <p class="hero__item--text">we make awesome music</p>
+    </div>
+  </header>
 
-  <body>
-    <div class="main-nav">
-      <ul class="nav">
-        <li class="name"><a href="#">Accessible Frog</a></li>
-        <li><a href="tour.html">Tour</a></li>
-        <li><a href="survey.html">Survey</a></li>
-      </ul>
+  <main>
+    <div class="card">
+      <div class="flex">
+        <img class="photo" src= "img/soul_of_the_frog.jpg" alt="Soul Of The Frog Album picture">
+        <div class="information">
+          <h1 class="heading">New album out now</h1>
+          <p>Soul of the Frog</p>
+          <p>Digital/CD/ 2 x LP</p>
+          <a href="#" class="button">Purchase Album</a>
+        </div>
+      </div>
     </div>
 
-    <header>
-    </header>
-
-    <main>
-      <div class="card">
-        <div class="flex">
-          <img class="photo" src= "img/soul_of_the_frog.jpg">
-          <div class="information">
-            <p class="heading">New album out now</p>
-            <p>Soul of the Frog</p>
-            <p>Digital/CD/ 2 x LP</p>
-            <a href="#" class="buy">Purchase Album</a>
-          </div>
+    <div class="card">
+      <div class="flex">
+        <img class="photo" src= "img/lead_singer.jpg" alt="Picture of John">
+        <div class="information">
+          <h1 class="heading">About the band</h1>
+          <p>Photo booth aliquip pinterest meggings. Sapiente commodo wolf put a bird on it fingerstache gentrify, meh polaroid vegan everyday carry.</p>
         </div>
       </div>
+    </div>
+  </main>
 
-      <div class="card">
-        <div class="flex">
-          <img class="photo" src= "img/lead_singer.jpg">
-          <div class="information">
-            <p class="heading">About the band</p>
-            <p>Photo booth aliquip pinterest meggings. Sapiente commodo wolf put a bird on it fingerstache gentrify, meh polaroid vegan everyday carry.</p>
-          </div>
-        </div>
-      </div>
-    </main>
+  <footer class="footer">
+    <ul class="social">
+      <li><a class="social" href="#"><img src="img/twitter-32.png" alt="Accessible Frog Trwitter account" /></a></li>
+      <li><a class="social" href="#"><img src="img/youtube-32.png" alt="Accessible Frog Youtube channel" /></a></li>
+      <li><a class="social" href="#"><img src="img/spotify-32.png" alt="Accessible Frog Spotify page" /></a></li>
+    </ul>
+    <p class="copyright">Copyright 2015, Accessible Frog</p>
+  </footer>
 
-    <footer>
-      <ul>
-        <li><a href="#" class="social twitter"></a></li>
-        <li><a href="#" class="social youtube"></a></li>
-        <li><a href="#" class="social spotify"></a></li>
-      </ul>
-      <p class="copyright">Copyright 2015, Accessible Frog</p>
-    </footer>
-
-  </body>
+</body>
 </html>

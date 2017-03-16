@@ -1,12 +1,25 @@
 header {
   text-align: center;
-  background: url('../img/concert02_with_text.jpg') no-repeat top center ;
+  background: url('../img/concert02_no_text.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
   height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.hero__item {
+    color: #34495e;
+    font-size: 4em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.hero__item--text {
+    color: black;
+    font-size: 1.7em;
+    font-weight: bold;
+}
 .tag {
   color: black;
   padding: 10px;

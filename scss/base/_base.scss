@@ -7,19 +7,135 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: #3A6355;
-  background: #2d2b30;
+  background: #edeff0;
+}
+h1, h2, h3{
+  font-family: 'Miriam Libre', sans-serif;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+td, th {
+  padding-left: 1em;
+}
+label {
+  color: #495d70;
+  padding: .3em 0;
+  font-weight: bold;
+  letter-spacing: 1.1px;
+  text-align: left;
+  font-size: 1.1em;
+  margin: .5em 0;
+}
+legend {
+  color: #26714f;
+  padding: .3em 0;
+  font-weight: bold;
+  letter-spacing: 1.1px;
+  text-align: left;
+  font-size: 1.3em;
+  text-align: left;
+  text-transform: uppercase;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+}
+fieldset{
+  border: 0;
+}
+select {
+  height: 40px;
+}
+input, select, textarea {
+  overflow: visible;
+  width: 100%;
+  border-radius: 5px;
+  padding: 11px;
+  background-color: #eff0f1;
+  border: none;
+  color: #46698b;
+}
+input[type="radio"] {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border: solid 2px #2d3944;
+  background-color: transparent;
+  margin: 0 1rem 0 0;
+  vertical-align: text-bottom;
+  border-radius: 50%;
+}
+input, label{
+    outline: none;
+}
+input[type="radio"]:checked {
+  background: #46698b;
+}
+textarea {
+  resize: none;
+}
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus, select:focus {
+  background-color: #46698b;
+  color: #fff;
+}
+input[type="text"], input[type="email"], input[type="tel"], textarea, select {
+  -webkit-transition: background-color 4s;
+  transition: background-color 4s;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  text-align: end;
+  font-style: italic;
+  padding-right: 10px;
+  font-size: 0.75rem;
+}
+::-moz-placeholder{ /* Firefox 19+ */
+  text-align: end;
+  font-style: italic;
+  padding-right: 10px;
+  font-size: 0.75rem;
+}
+:-ms-input-placeholder{ /* IE 10+ */
+  text-align: end;
+  font-style: italic;
+  padding-right: 10px;
+  font-size: 0.75rem;
+}
+:-moz-placeholder { /* Firefox 18- */
+  text-align: end;
+  font-style: italic;
+  padding-right: 10px;
+  font-size: 0.75rem;
+}
+.flex-outer li {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #fff;
 }
-
+.button {
+  padding: 0.75em 2em;
+  border-radius: 2em;
+  display: inline-block;
+  color: #fff;
+  background-color: #26714f;
+  transition: all 0.15s ease;
+  box-sizing: border-box;
+  border: 1px solid #26714f;
+  box-shadow: 0 4px 0 rgba(38, 113, 79, .7);
+}
 a:hover {
-  color: #999;
+  border-bottom: 2px solid green;
 }
 
 

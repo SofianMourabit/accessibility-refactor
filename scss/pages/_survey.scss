@@ -1,8 +1,9 @@
 /* Survey page styles */
 
 .photo{
-  width: 60%;
+  width: 70%;
   padding: 10px;
+  border-radius: 15px;
 }
 
 form {
@@ -13,10 +14,13 @@ form {
 
 .container{
   text-align: center;
+  width: 90%;
 }
-.newsletter{
-  text-align: right;
-
+.newsletter {
+    text-align: right;
+    padding: 10px;
+    margin: 20px 30px;
+    width: 100%
 }
 
 

@@ -3,12 +3,14 @@
 footer {
   width: 100%;
   min-height: 30px;
-  padding: 20px 0 40px 20px;
+  padding: 10px 0 10px 10px;
+  background: #34495e;
 }
 
 footer .copyright {
   top: -8px;
   font-size: .75em;
+  color: white;
 }
 
 footer ul {
@@ -22,12 +24,11 @@ footer ul li {
 }
 
 a.social {
-  display: inline-block;
+  display: block;
   margin-left: 5px;
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .4;
   transition: all .5s;
 }
 
@@ -49,7 +50,7 @@ a.social:hover {
 @media screen and (min-width: 840px) {
   footer {
     font-size: 1.3em;
-    max-width: 1200px;
-    margin: 40px auto;
+    margin: auto;
+    margin-top: 40px;
   }
 }

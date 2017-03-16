@@ -2,11 +2,12 @@
 
 .main-nav {
   width: 100%;
-  background: rgba(45, 43, 48, 0.8);
+  background:#34495e;
   min-height: 30px;
   padding: 10px;
   position: fixed;
   text-align: center;
+  box-shadow: 0px 1px 5px 5px rgba(0,0,0,0.3);
 }
 
 .nav {
