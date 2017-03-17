@@ -34,6 +34,7 @@
   border-radius: 5px;
   border: 1px solid white;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 .nav a {
@@ -59,5 +60,6 @@
   .nav li {
     border:none;
     margin-bottom: 0px;
+    width: auto;
   }
 }
