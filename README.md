@@ -1,13 +1,13 @@
 # Project Name
 
-Project-07 Front End Developer Track: Javascript Video Player
+Project-08 Front End Developer Track: Website Accessibility Refactor following WCAG 2.0 principles
 
 # Accessibility_Refactor
 Take a set of interlinked pages that suffer from various accessibility
 flaws and refine and update them so they are accessible and pass an accessibility
 validator(s)'s automated checks and a human's check.
 
-Font used: https://www.google.com/fonts/specimen/Montserrat
+
 
 
 ## Installation
