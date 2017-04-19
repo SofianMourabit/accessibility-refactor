@@ -19,10 +19,10 @@
   "devDependencies": {
     "autoprefixer": "^6.7.7",
     "gulp": "^3.9.1",
-    "gulp-postcss": "^6.3.0",
+    "gulp-postcss": "^6.4.0",
     "gulp-sass": "^3.1.0",
     "gulp-server-livereload": "^1.9.2",
-    "gulp-sourcemaps": "^2.4.1",
+    "gulp-sourcemaps": "^2.6.0",
     "gulp-watch": "^4.3.11",
     "lost": "^8.0.0"
   }

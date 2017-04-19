@@ -467,7 +467,11 @@ input, select, textarea {
   padding: 11px;
   background-color: #eff0f1;
   border: none;
-  color: #46698b; }
+  color: #46698b;
+  transition: all 0.15s ease; }
+
+input:hover, textarea:hover, select:hover {
+  border: 1px solid #46698b; }
 
 input[type="radio"] {
   -webkit-appearance: none;
@@ -496,7 +500,6 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, te
   color: #fff; }
 
 input[type="text"], input[type="email"], input[type="tel"], textarea, select {
-  -webkit-transition: background-color 4s;
   transition: background-color 4s; }
 
 ::-webkit-input-placeholder {
@@ -546,11 +549,14 @@ a {
   display: inline-block;
   color: #34415e;
   background-color: #baf73c;
-  -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
   box-sizing: border-box;
   border: 1px solid #baf73c;
-  box-shadow: 0 4px 0 #eff0f1; }
+  box-shadow: 0 4px 0 #eff0f1;
+  cursor: pointer; }
+
+.button:hover {
+  background-color: #f7fee7; }
 
 .info {
   color: #005051;
@@ -636,7 +642,6 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  -webkit-transition: all .5s;
   transition: all .5s; }
 
 a.twitter {
@@ -648,8 +653,9 @@ a.youtube {
 a.spotify {
   background-image: url(../img/spotify-32.png); }
 
-a.social:hover {
-  opacity: 1; }
+a.social > img:hover {
+  -webkit-filter: invert(100%);
+          filter: invert(100%); }
 
 @media screen and (min-width: 840px) {
   footer {
@@ -702,7 +708,6 @@ a.social:hover {
 .nav a {
   display: block;
   padding: 5px 10px 10px 10px;
-  -webkit-transition: all .5s;
   transition: all .5s;
   text-transform: uppercase;
   font-family: 'Miriam Libre', sans-serif; }

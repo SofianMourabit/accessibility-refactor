@@ -44,8 +44,8 @@ a.spotify {
   background-image: url(../img/spotify-32.png);
 }
 
-a.social:hover {
-  opacity: 1;
+a.social > img:hover {
+  filter: invert(100%);
 }
 @media screen and (min-width: 840px) {
   footer {

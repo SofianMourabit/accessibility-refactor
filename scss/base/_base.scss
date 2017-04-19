@@ -60,6 +60,10 @@ input, select, textarea {
   background-color: #eff0f1;
   border: none;
   color: #46698b;
+  transition: all 0.15s ease;
+}
+input:hover, textarea:hover, select:hover{
+  border: 1px solid #46698b;
 }
 input[type="radio"] {
   -webkit-appearance: none;
@@ -137,6 +141,10 @@ a {
   box-sizing: border-box;
   border: 1px solid #baf73c;
   box-shadow: 0 4px 0 rgb(239, 240, 241);
+  cursor: pointer;
+}
+.button:hover{
+  background-color: lighten(#baf73c, 35%);
 }
 .info {
     color: #005051;
